@@ -67,5 +67,5 @@ steps:
 #      rootDirectory: 'app/build/outputs/apk'
 #      remoteDirectory: '/public_html/files/$(repositoryName)/$(Build.SourceVersion)'
 
-  - publish: build/outputs/apk/release/app-release-unsigned.apk
-    artifact: $(repositoryName)
+#   - publish: build/outputs/apk/release/app-release-unsigned.apk
+#     artifact: $(repositoryName)
